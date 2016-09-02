@@ -1,0 +1,52 @@
+.dashBoard .panel{
+    margin-bottom: 0px;
+    background: #337BAE;
+}
+.switchUser{
+    padding-top: 9px;
+    padding-right: 10px;
+}
+.panel-default > .panel-heading {
+    background-color: #337bae;
+    border-color: #ddd;
+    color: #fff;
+}
+.list-group-item {
+    background-color: #337bae;
+    border: 0 solid #ddd;
+    color: #fff;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
+}
+.badge {
+    background-color: #337bae;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.navbar-default {
+  
+  border-radius: 0px;
+}
+// Mixin
+.center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage
+.btn {
+  width: 940px;
+  .center-block();
+}
